@@ -1,0 +1,84 @@
+2014-07-23 19:34:56 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/Applications/XAMPP/xamppfiles/htdocs/logreg/app/Controller/UsersController.php, line 21]
+2014-07-23 19:34:56 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /logreg/users/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/logreg/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 21, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/logreg/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 21, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/logreg/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-23 19:58:58 Error: Fatal Error (1): Class 'SimplePasswordHasher' not found in [/Applications/XAMPP/xamppfiles/htdocs/logreg/app/Model/User.php, line 43]
+2014-07-23 19:58:58 Error: [FatalErrorException] Class 'SimplePasswordHasher' not found
+Request URL: /logreg/users/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/logreg/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'SimplePa...', '/Applications/X...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'SimplePa...', '/Applications/X...', 43, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/logreg/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'SimplePa...', '/Applications/X...', 43, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/logreg/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-23 20:22:02 Error: [MissingActionException] Action PostsController::visitors() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'visitors',
+)
+Request URL: /logreg/posts/visitors
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/logreg/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/logreg/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/logreg/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-23 20:37:05 Error: Fatal Error (1): Unsupported operand types in [/Applications/XAMPP/xamppfiles/htdocs/logreg/lib/Cake/View/Helper/FormHelper.php, line 1674]
+2014-07-23 20:37:05 Error: [FatalErrorException] Unsupported operand types
+Request URL: /logreg/users/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/logreg/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', '/Applications/X...', 1674)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', '/Applications/X...', 1674, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/logreg/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', '/Applications/X...', 1674, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/logreg/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-11 14:05:48 Error: [MissingControllerException] Controller class MedicalAppController could not be found.
+Exception Attributes: array (
+  'class' => 'MedicalAppController',
+  'plugin' => NULL,
+)
+Request URL: /Medical_app/logreg//Medical_app/logreg/
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\Medical_app\logreg\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-04-11 14:07:27 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'logregcake\'',
+  'enabled' => true,
+)
+Request URL: /logreg/
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\logreg\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\logreg\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\logreg\lib\Cake\Model\Model.php(3498): ConnectionManager::getDataSource('default')
+#3 C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\logreg\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#4 C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\logreg\lib\Cake\Model\Model.php(3525): Model->setSource('posts')
+#5 C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\logreg\lib\Cake\Model\Model.php(2921): Model->getDataSource()
+#6 C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\logreg\lib\Cake\Model\Model.php(2893): Model->_readDataSource('all', Array)
+#7 C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\logreg\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#8 C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\logreg\app\Controller\PostsController.php(30): PaginatorComponent->paginate()
+#9 [internal function]: PostsController->visitors()
+#10 C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\logreg\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\logreg\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\logreg\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\logreg\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2021-04-29 14:32:45 Error: [MissingActionException] Action AppController::index.php() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index.php',
+)
+Request URL: /logreg/app/index.php
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\logreg\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\logreg\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\logreg\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

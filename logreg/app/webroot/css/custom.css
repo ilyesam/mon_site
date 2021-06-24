@@ -1,0 +1,158 @@
+/*============================================================================================*/
+/* Your custom styles below */
+/*============================================================================================*/
+
+/*Barre de recherche */
+
+
+/*============================================================================================*/
+/* Your custom styles below */
+/*============================================================================================*/
+
+/*Barre de recherche */
+
+
+
+
+
+.ui-autocomplete {
+	max-height: 300px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.ui-autocomplete-category {
+	font-weight: bold!important;
+	padding: .2em .4em;
+}
+
+.borderLeft {
+	width: 36%!important;
+}
+
+.btn-map {
+	border-radius: 8px!important;
+	background-color: #000080ab;
+	color: #FFF;
+	margin-right: 0px;
+	font-size: 15px;
+	padding: 6px;
+
+}
+
+.margin_30 {
+	margin: 30px auto!important;
+}
+
+.horaires {
+	display: block;
+	position: relative;
+	height: 100px;
+	padding: 10px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.time_select {
+	display: block;
+	position: relative;
+	height: 100%;
+	padding: 0!important;
+	margin:0!important;
+	border:0!important;
+}
+
+ul .time_select.version_2 li {
+	list-style-type:none;
+}
+
+ul.time_select.version_2 li{
+	position: relative;
+	width:25%;
+	margin:0!important;
+	padding: 5px;
+
+}
+ul.time_select li input[type=radio]{
+	display:none;cursor:pointer
+}
+ul.time_select li input[type=radio]:checked+label{
+	background-color:#018cc5;color:#fff
+}
+ul.time_select li label{
+	
+	-moz-transition:all .3s ease-in-out;
+	-o-transition:all .3s ease-in-out;
+	-webkit-transition:all .3s ease-in-out;
+	-ms-transition:all .3s ease-in-out;
+	transition:all .3s ease-in-out;
+	background-color:#f8f8f8;
+	border-radius:3px;
+	line-height:1;
+	min-width:80px;
+	margin:0px;
+	text-align:center;
+	cursor:pointer
+}
+ul.time_select li label:hover{
+	background-color:#018cc5;color:#fff
+}
+
+._bar_list .form-control {
+	display: inline-block;
+	width: 40%;
+	margin: 0!important;
+	margin-right: 0!important;
+	float: left;
+	border-radius: inherit!important;
+}
+
+.search_bar_list button {
+	height: 40px;
+	float: left;
+}
+.search_bar_list #btn_search {
+	margin:0!important;
+	display: inline-block!important;
+	height: 40px;
+	font-weight:600;
+	font-size:14px;
+
+}
+
+
+/*Map search*/
+
+#map-container {
+	width: 100%;
+}
+
+#map-container .map-title{
+	font-weight: 700;
+	font-size: 16px;
+	color: #018cc5;
+	padding: 5px;
+	border-bottom: 1px solid #018cc5;
+}
+
+#map-container figure img {
+	display: block;
+	width: 150px;
+	margin: 5px auto;
+}
+
+#map-container p {
+	font-size: 15px;
+}
+
+#map-container .map-subTitle {
+	font-weight: 700;	
+}
+
+#map-container .btn {
+	display: block;
+	margin:0 auto;
+	margin-top:5px;
+	width: auto;
+}
+
